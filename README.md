@@ -1,6 +1,6 @@
 # README
 
-This sample project demonstrates a bug with NavigationStack(path:) when that path binding is derived from a StateObject or State.
+This sample project demonstrates a bug with `NavigationStack(path:)` when that path binding is derived from a `StateObject` or `State`.
 
 The app has four layers - a root view, first detail view, second detail view, and third detail view. The intended behavior here is to launch the app directly into the first detail screen already pushed onto the navigation stack, and freely navigate around.
 
@@ -17,4 +17,3 @@ navigationStack didSet: []
 ```
 
 The result is that the array representing the source of truth for the navigation stack is out of sync with the actual navigation stack on-screen, eventually causing a bug.
-

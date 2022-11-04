@@ -12,7 +12,7 @@
 		9646539229148E70003B9E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9646539129148E70003B9E6F /* Assets.xcassets */; };
 		9646539529148E70003B9E6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9646539429148E70003B9E6F /* Preview Assets.xcassets */; };
 		964653A0291497C3003B9E6F /* ScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9646539F291497C3003B9E6F /* ScreenCoordinator.swift */; };
-		964653A2291497E6003B9E6F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 964653A1291497E6003B9E6F /* README.md */; };
+		964653A42914AFB6003B9E6F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 964653A32914AFB6003B9E6F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		9646539129148E70003B9E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9646539429148E70003B9E6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9646539F291497C3003B9E6F /* ScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCoordinator.swift; sourceTree = "<group>"; };
-		964653A1291497E6003B9E6F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		964653A32914AFB6003B9E6F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 		9646538C29148E6F003B9E6F /* NavigationCoordinatorBug */ = {
 			isa = PBXGroup;
 			children = (
-				964653A1291497E6003B9E6F /* README.md */,
+				964653A32914AFB6003B9E6F /* README.md */,
 				9646538D29148E6F003B9E6F /* NavigationCoordinatorBugApp.swift */,
 				9646538F29148E6F003B9E6F /* Views.swift */,
 				9646539F291497C3003B9E6F /* ScreenCoordinator.swift */,
@@ -131,7 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				964653A2291497E6003B9E6F /* README.md in Resources */,
+				964653A42914AFB6003B9E6F /* README.md in Resources */,
 				9646539529148E70003B9E6F /* Preview Assets.xcassets in Resources */,
 				9646539229148E70003B9E6F /* Assets.xcassets in Resources */,
 			);
