@@ -17,3 +17,6 @@ navigationStack didSet: []
 ```
 
 The result is that the array representing the source of truth for the navigation stack is out of sync with the actual navigation stack on-screen, eventually causing a bug.
+
+https://user-images.githubusercontent.com/5779307/199872817-62878794-c3b5-4e6d-bb36-de8229061091.mp4
+
