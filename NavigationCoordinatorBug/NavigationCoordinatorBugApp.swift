@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+/// Please see README.md for details on this bug.
+
 @main
 struct NavigationCoordinatorBugApp: App {
     var body: some Scene {
         WindowGroup {
-            RootView()
+            AppView()
         }
     }
 }

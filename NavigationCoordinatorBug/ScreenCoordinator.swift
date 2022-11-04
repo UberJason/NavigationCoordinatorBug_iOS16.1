@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum Screen: Hashable {
-    case allPlans, planDetail(planId: String), entryDetail(entryId: String), recipeDetail(recipeId: String)
+    case root, firstDetail, secondDetail, thirdDetail
 }
 
 class ScreenCoordinator: ObservableObject {
@@ -21,28 +21,8 @@ class ScreenCoordinator: ObservableObject {
         }
     }
     
-    let store: MealStore
-    
-    init(store: MealStore = .shared, screens: [Screen] = []) {
-        self.store = store
+    init(screens: [Screen] = []) {
         self.navigationStack = screens
         print("init navigationStack: \(navigationStack)")
-    }
-
-    @ViewBuilder
-    func makeDestination(for screen: Screen) -> some View {
-        switch screen {
-        case .allPlans:
-            AllPlansView()
-        case .planDetail(let planId):
-            let plan = store.plan(with: planId)
-            PlanDetailsView(plan: plan)
-        case .entryDetail(let entryId):
-            let entry = store.entry(with: entryId)
-            EntryDetailsView(entry: entry)
-        case .recipeDetail(let recipeId):
-            let recipe = store.recipe(with: recipeId)
-            RecipeDetailsView(recipe: recipe)
-        }
     }
 }
